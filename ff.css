@@ -1,0 +1,153 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    }
+    
+    h1, h2, h3 {
+    font-weight: 700;
+    }
+    
+    img {
+    max-width: 100%;
+    }
+    
+    ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    /* Header Styling */
+    header {
+    background: #f2f2f2;
+    padding: 20px;
+    }
+    
+    nav {
+    float: right;
+    }
+    
+    nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    }
+    
+    nav ul li:first-child {
+    margin-left: 0;
+    }
+    
+    nav ul li a {
+    color: #333;
+    text-decoration: none;
+    }
+    
+    /* Banner Styling */
+    .banner {
+    background: url(banner-bg.jpg) no-repeat center center / cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+    }
+    
+    .btn-booknow {
+    display: inline-block;
+    background: #fff;
+    color: #333;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    }
+    
+    /* Rooms Styling */
+    .rooms {
+    padding: 50px 20px;
+    text-align: center;
+    }
+    
+    .room-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    }
+    
+    .room {
+    width: 30%;
+    background: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+    }
+    
+    .room img {
+    max-height: 150px;
+    margin-bottom: 10px;
+    }
+    
+    .rate {
+    font-weight: 700;
+    font-size: 24px;
+    }
+    
+    /* Activities Styling */
+    .activities {
+    background: #f2f2f2;
+    padding: 50px 20px;
+    text-align: center;
+    }
+    
+    .activity-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    }
+    
+    .activity {
+    width: 30%;
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    }
+    
+    .activity img {
+    max-height: 150px;
+    margin-bottom: 10px;
+    }
+    
+    /* Contact Styling */
+    .contact {
+    padding: 50px 20px;
+    text-align: center;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    }
+    
+    button[type="submit"] {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    } 
+    
+    /* Footer Styling */
+    footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    } 
+    
+    footer p {
+    margin: 0;
+    } 
+    
